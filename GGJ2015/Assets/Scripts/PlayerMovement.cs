@@ -19,20 +19,46 @@ public class PlayerMovement : MonoBehaviour {
 	private bool moveRight = false;
 	private bool jump = false;
 	private bool canJump = false;
+	
+	Animator anim;
+	bool facingRight = true;
 
 	// Use this for initialization
 	void Start () {
-		
+		anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+	}
+	
+	/////////////////////////////////////////////
+	void FixedUpdate()
+	{	
+		//restrict rotation
+		transform.rotation = Quaternion.identity;
+		
+		
 		CheckMoveKeys();
 		RemoveConflictingMoves();
 		MovePlayer();
 		
-		//restrict rotation
-		transform.rotation = Quaternion.identity;
+		if(moveLeft)
+		{
+			anim.SetBool("Walk", true);
+			if(facingRight)
+				FlipFacing();
+		}
+		else if(moveRight)
+		{
+			anim.SetBool("Walk", true);
+			if(!facingRight)
+				FlipFacing();
+		}
+		else
+		{
+			anim.SetBool("Walk", false);
+		}
 	}
 	
 	/////////////////////////////////////////////
@@ -90,7 +116,17 @@ public class PlayerMovement : MonoBehaviour {
 			Debug.Log("Jumping!");
 			rigidbody2D.AddForce(Vector2.up * jumpForceMod);
 			canJump = false;
+			anim.SetBool("OnGround", false);
 		}
+	}
+	
+	/////////////////////////////////////////////
+	void FlipFacing()
+	{
+		facingRight = !facingRight;
+		Vector3 temp = transform.localScale;
+		temp.x *= -1;
+		transform.localScale = temp;
 	}
 	
 	/////////////////////////////////////////////
@@ -100,6 +136,7 @@ public class PlayerMovement : MonoBehaviour {
 		{
 //			Debug.Log("collided with platform");
 			canJump = true;
+			anim.SetBool("OnGround", true);
 		}
 	}
 }
