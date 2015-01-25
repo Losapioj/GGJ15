@@ -4,6 +4,8 @@ using System.Collections;
 public class CheckValidSpawn : MonoBehaviour {
 
 	public Rect validArea;
+	
+	public Canvas editCan;
 	// Use this for initialization
 	void Start () {
 		checkValidSpawn();
@@ -28,7 +30,7 @@ public class CheckValidSpawn : MonoBehaviour {
 	
 	void OnMouseOver()
 	{
-		if(Input.GetMouseButton(1))
+		if(Input.GetMouseButton(1) && editCan.gameObject.activeSelf)
 			Destroy(gameObject);
 	}
 }

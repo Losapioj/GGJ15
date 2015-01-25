@@ -15,7 +15,7 @@ public class LoadSave : MonoBehaviour
 	// the examples from the web page since they are fully described 
 	
 	// This is our local private members 
-	Rect _Save, _Load, _SaveMSG, _LoadMSG;
+	Rect _SaveMSG, _LoadMSG;
 	bool _ShouldSave, _ShouldLoad, _SwitchSave, _SwitchLoad;
 	string _FileLocation, _FileName;
 	
@@ -35,8 +35,6 @@ public class LoadSave : MonoBehaviour
 	void Start()
 	{
 		// We setup our rectangles for our messages 
-		_Save = new Rect(10, 80, 100, 20);
-		_Load = new Rect(10, 100, 100, 20);
 		_SaveMSG = new Rect(10, 120, 400, 40);
 		_LoadMSG = new Rect(10, 140, 400, 40);
 		

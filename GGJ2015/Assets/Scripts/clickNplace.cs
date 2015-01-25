@@ -5,6 +5,8 @@ public class clickNplace : MonoBehaviour {
 	public GameObject gameobject;
 	public GameObject spawn;
 	public GameObject goal;
+	
+	public Canvas editCanvas;
 	enum States
 	{
 		Player,
@@ -60,15 +62,20 @@ public class clickNplace : MonoBehaviour {
 
 			if (State == States.Floor)
 			{
-				var yop = Instantiate(gameobject,mousepos,Quaternion.identity);
+				//allows object to determine if the game is in edit mode for self removal on right click
+				GameObject yop = (GameObject)(Instantiate(gameobject,mousepos,Quaternion.identity));
+				yop.GetComponent<CheckValidSpawn>().editCan = editCanvas;
 			}
 			if(State == States.Goal)
 			{
-				var yop = Instantiate(goal,mousepos,Quaternion.identity);
+				//allows object to determine if the game is in edit mode for self removal on right click
+				GameObject yop = (GameObject)(Instantiate(goal,mousepos,Quaternion.identity));
+				yop.GetComponent<CheckValidSpawn>().editCan = editCanvas;
 			}
 			if(State == States.Player)
 			{
-				var yop = Instantiate(spawn,mousepos,Quaternion.identity);
+				//no need to activate deleting, since there can only be one at a time anyway
+				Instantiate(spawn,mousepos,Quaternion.identity);
 			}
 		}
 	
