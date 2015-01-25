@@ -46,7 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ChangeCanvasActive.cs" />
+     <Compile Include="Assets\Scripts\CheckValidSpawn.cs" />
+     <Compile Include="Assets\Scripts\LoadSave.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerSpawnBehavior.cs" />
+     <Compile Include="Assets\Scripts\SwitchActiveCamera.cs" />
+     <Compile Include="Assets\Scripts\XMLitemCatcher.cs" />
+     <Compile Include="Assets\Scripts\clickNplace.cs" />
+     <None Include="Assets\SaveData.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
