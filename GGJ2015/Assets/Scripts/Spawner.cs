@@ -6,7 +6,8 @@ public class Spawner : MonoBehaviour {
 	public bool isBeingCreated;
 
 	public GameObject player;
-	private Object currentPlayer;
+//	public Canvas editCanvas;
+	private GameObject currentPlayer;
 	
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,8 @@ public class Spawner : MonoBehaviour {
 	
 	public void SpawnPlayer()
 	{
-		currentPlayer = Instantiate(player, transform.position, Quaternion.identity);
+		currentPlayer = (GameObject)(Instantiate(player, transform.position, Quaternion.identity));
+//		currentPlayer.GetComponent<DeletePlayerOnEdit>().editCan = editCanvas;
 	}
 	public void RespawnPlayer()
 	{

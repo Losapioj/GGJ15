@@ -48,11 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ChangeCanvasActive.cs" />
      <Compile Include="Assets\Scripts\CheckValidSpawn.cs" />
+     <Compile Include="Assets\Scripts\DeletePlayerOnEdit.cs" />
      <Compile Include="Assets\Scripts\LoadSave.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerSpawnBehavior.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\SwitchActiveCamera.cs" />
+     <Compile Include="Assets\Scripts\Victory.cs" />
      <Compile Include="Assets\Scripts\XMLitemCatcher.cs" />
      <Compile Include="Assets\Scripts\clickNplace.cs" />
      <None Include="Assets\SaveData.xml" />
