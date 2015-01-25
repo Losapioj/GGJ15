@@ -1,0 +1,1 @@
+No installation necessary, just double click your appropriate application to start (or html page to play in a browser)
