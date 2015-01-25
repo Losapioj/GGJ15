@@ -25,7 +25,7 @@ public class Spawner : MonoBehaviour {
 	
 	public void SpawnPlayer()
 	{
-		currentPlayer = (GameObject)(Instantiate(player, transform.position, Quaternion.identity));
+		currentPlayer = (GameObject)(Instantiate(player, gameObject.transform.position, Quaternion.identity));
 //		currentPlayer.GetComponent<DeletePlayerOnEdit>().editCan = editCanvas;
 	}
 	public void RespawnPlayer()
