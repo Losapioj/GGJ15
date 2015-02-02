@@ -6,59 +6,19 @@ Direct3D:
     Vendor:   Intel
     VRAM:     896 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.045 seconds
+Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.205 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\GGJ2015\BUILDS\Platformer Editor Windows_Data\Managed\System.dll (this message is harmless)
-mouse position x: 803y: 596z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 945y: 586z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 62y: 686z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 1159y: 530z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 1204y: 611z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 57y: 802z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 541y: 618z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 449y: 538z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 347y: 390z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 351y: 434z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 284y: 835z: 999
+Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\losap_000\Desktop\GitHub\GGJ15\release\Platformer Editor Windows_Data\Managed\System.dll (this message is harmless)
+mouse position x: 328y: 1017z: 999
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
@@ -78,139 +38,11 @@ Found Play Canvas
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Checking Canvas Found
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Found Play Canvas
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Checking Canvas Found
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Found Play Canvas
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
 changing active state ofEditor Canvas (ChangeCanvasActive)
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
 changing active state ofPlay Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 67y: 807z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 926y: 492z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 247y: 831z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofEditor Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofPlay Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Checking Canvas Found
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Found Play Canvas
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Checking Canvas Found
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Found Play Canvas
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofEditor Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofPlay Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 342y: 533z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 344y: 523z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-mouse position x: 296y: 852z: 999
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofEditor Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-changing active state ofPlay Canvas (ChangeCanvasActive)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Checking Canvas Found
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Found Play Canvas
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Jumping!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
